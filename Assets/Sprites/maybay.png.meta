@@ -1,0 +1,1117 @@
+fileFormatVersion: 2
+guid: 54c4af4ced26d4747b6f72fd6fc23829
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: maybay_0
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 388
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760deec2186f50a4686e3aa4c595135d
+      internalID: -1113861448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 82
+        width: 237
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb82a75d43fc524c92ed48bd231edcc
+      internalID: 1041258199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 71
+        width: 9
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6965b9f14dbf8e34397e11c92d7a41c9
+      internalID: -722575793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 80
+        width: 236
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0844755a903da7f46a318648507a2727
+      internalID: 1959697970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_4
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 70
+        width: 9
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c2ab3ed93f54549b7e13c38f46f105
+      internalID: 425376054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 76
+        width: 8
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aec81e50ad955f4fb5b4555a0e7a9e8
+      internalID: 1348864449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_6
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 66
+        width: 9
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecd2a3f2677067499952a0dbed21ee7
+      internalID: -1116361351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 71
+        width: 237
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b000026b6e5e284e8e7b2b22c1816c4
+      internalID: -185497199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_8
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 48
+        width: 8
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb928b402f9b961478972e975b53a1dc
+      internalID: 1365492824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_9
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 0
+        width: 18
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297a8d2a2ab19d14a998882cf8c1f021
+      internalID: 543416709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_10
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 54
+        width: 8
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5b2507db11ae7429c181709bf4fc5f
+      internalID: 852743903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_11
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 55
+        width: 8
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed71d52c87728ce438037e4db7db1190
+      internalID: -1659531622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_12
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 56
+        width: 236
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f815defdd89d2f04fb72b1026c50d5a3
+      internalID: 424389875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_13
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 26
+        width: 8
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0301e7ff0bf3194692e03cb1e490863
+      internalID: -1678246516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_14
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 17
+        width: 9
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b87b712aa68a154d8c23ec56ae778a9
+      internalID: 129929277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_15
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 54
+        width: 8
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1cce0e47a2d3c45ae815b884ab6873
+      internalID: 728372206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_16
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 46
+        width: 7
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f1ef6b1c0645544b8d91efbcfba34e
+      internalID: -345360986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_17
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 25
+        width: 9
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc60991df42a3aa45ad7948cde4ea06d
+      internalID: -377665976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_18
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 56
+        width: 8
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91fd2741d9b3ad4c960fca2e46ca608
+      internalID: 607351788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 8
+        width: 8
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e43b45f0b4184419fb97a13112d71f
+      internalID: 250375067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_20
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 37
+        width: 9
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95e5d5bd631f9147b7eafad21b23b45
+      internalID: -1746157974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_21
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 22
+        width: 10
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3458ff931ced2724b8515c615ac3ec06
+      internalID: 563828996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_22
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 55
+        width: 237
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3609b7bffe92c44588e17b446cad6f5
+      internalID: -888904373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_23
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 44
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6800161f978aab14d99f0054226bfa98
+      internalID: 1677188732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_24
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 65
+        width: 237
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650f82bf765a033469d50f6f2600fec5
+      internalID: -57087563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_25
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 55
+        width: 9
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55186b7d9249c24b8977cab2e815d97
+      internalID: 1387543857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_26
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 62
+        width: 8
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13dd529ef1d8be489429a0cfdc15831
+      internalID: -1478257790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_27
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 52
+        width: 8
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcede617460df942b4b2624dc876a7d
+      internalID: -431799945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_28
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 75
+        width: 237
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4467d6f3e39ba494c8fbbf262c7ca3c2
+      internalID: 1468175412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_29
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 55
+        width: 8
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb44a6c38664f624c81a3216c69e0e5e
+      internalID: 179560603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_30
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 67
+        width: 8
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4207e544bc8f65a4c8b4dbd550ef197b
+      internalID: 1540923542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_31
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 72
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3726f80d7e97d504a84979e54c389301
+      internalID: 755707382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_32
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 60
+        width: 7
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9688f1155447ba409db5b32885832df
+      internalID: -2055706828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_33
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 61
+        width: 8
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264855f1c48a2434f8007325f4fb0e88
+      internalID: 1078362162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_34
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 73
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73e61527ec887a4b88a1b2b0748f09f
+      internalID: 1647356452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_35
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c793a4b320ba5f47b48e4e44996a7af
+      internalID: -373543170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_36
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 66
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d39985a9ed1d644697086612e66af0d
+      internalID: 1299117568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_37
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 68
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c898e3c3cee5d88448402f868892ca0f
+      internalID: -2098561364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_38
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 66
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a8477c5ea921d458d4eeb8b90f56be
+      internalID: -1538234443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_39
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 68
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c65d8cb4cf7a224789591cd73c2a33b
+      internalID: 810780153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_40
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 63
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34ae5464be10714797eed83e76e04cb
+      internalID: -306881349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_41
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f235bce03e272cb49868c45cd48da6c8
+      internalID: -1524207816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_42
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 61
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb594cf7991d52845b0f9b0f60532ae6
+      internalID: -1985117742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_43
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 56
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cde6b62feb14f48ad860e60aadfe27
+      internalID: -1146762023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maybay_44
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 56
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eb3dfb55abfe146abcfcf9bf897d47
+      internalID: 925108353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      maybay_0: -1113861448
+      maybay_1: 1041258199
+      maybay_10: 852743903
+      maybay_11: -1659531622
+      maybay_12: 424389875
+      maybay_13: -1678246516
+      maybay_14: 129929277
+      maybay_15: 728372206
+      maybay_16: -345360986
+      maybay_17: -377665976
+      maybay_18: 607351788
+      maybay_19: 250375067
+      maybay_2: -722575793
+      maybay_20: -1746157974
+      maybay_21: 563828996
+      maybay_22: -888904373
+      maybay_23: 1677188732
+      maybay_24: -57087563
+      maybay_25: 1387543857
+      maybay_26: -1478257790
+      maybay_27: -431799945
+      maybay_28: 1468175412
+      maybay_29: 179560603
+      maybay_3: 1959697970
+      maybay_30: 1540923542
+      maybay_31: 755707382
+      maybay_32: -2055706828
+      maybay_33: 1078362162
+      maybay_34: 1647356452
+      maybay_35: -373543170
+      maybay_36: 1299117568
+      maybay_37: -2098561364
+      maybay_38: -1538234443
+      maybay_39: 810780153
+      maybay_4: 425376054
+      maybay_40: -306881349
+      maybay_41: -1524207816
+      maybay_42: -1985117742
+      maybay_43: -1146762023
+      maybay_44: 925108353
+      maybay_5: 1348864449
+      maybay_6: -1116361351
+      maybay_7: -185497199
+      maybay_8: 1365492824
+      maybay_9: 543416709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
