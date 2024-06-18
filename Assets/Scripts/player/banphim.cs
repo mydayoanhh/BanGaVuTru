@@ -1,9 +1,14 @@
-﻿using UnityEngine;
+﻿using UnityEditor.SearchService;
+using UnityEngine;
 using UnityEngine;
 
 public class banphim : MonoBehaviour
 {
     public float moveSpeed;
+    public GameObject bullet;
+    public Transform shootingPoint;
+
+
     public float minX = -9.7f;
     public float maxX = 9.7f;
     public float minY = -3.75f;
@@ -24,5 +29,18 @@ public class banphim : MonoBehaviour
         float clampedX = Mathf.Clamp(newPos.x, minX, maxX);
         float clampedY = Mathf.Clamp(newPos.y, minY, maxY);
         transform.position = new Vector3(clampedX, clampedY, transform.position.z);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Shoot();
+        }
+    }
+    public void Shoot()
+    {
+        if(bullet && shootingPoint)
+        {
+            Instantiate(bullet, shootingPoint.position,Quaternion.identity);
+        }
+
     }
 }
