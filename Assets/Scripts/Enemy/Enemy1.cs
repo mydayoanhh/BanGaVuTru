@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,9 +13,9 @@ public class dichuyen : MonoBehaviour
     public float floatAmplitude = 1f;
 
     private float initialY;
-    private bool isFalling = true; 
+    private bool isFalling = true;
 
-    public float fallSpeed = 2f; 
+    public float fallSpeed = 2f;
     public float targetY = 0f;
 
     void Start()
@@ -27,18 +27,18 @@ public class dichuyen : MonoBehaviour
     {
         if (isFalling)
         {
-           
+
             transform.Translate(Vector3.down * fallSpeed * Time.deltaTime);
 
             if (transform.position.y <= targetY)
             {
-                isFalling = false; 
-                initialY = transform.position.y; 
+                isFalling = false;
+                initialY = transform.position.y;
             }
         }
         else
         {
-            
+
             transform.Translate(Vector3.right * direction * speed * Time.deltaTime);
 
             if (transform.position.x >= rightBoundary)
@@ -50,9 +50,16 @@ public class dichuyen : MonoBehaviour
                 direction = 1;
             }
 
-          
+
             float newY = initialY + Mathf.Sin(Time.time * floatSpeed) * floatAmplitude;
             transform.position = new Vector3(transform.position.x, newY, transform.position.z);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Player"))
+        {
+            Debug.Log("Enemy va cham voi Player");
         }
     }
 }

@@ -1,13 +1,12 @@
 ﻿using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine;
 
 public class banphim : MonoBehaviour
 {
     public float moveSpeed;
-    public GameObject PlayerBullet; // Renamed for clarity
-    public Transform shootingPoint;
-    public float shootingCooldown; // Declare shootingCooldown here
-    private float tempCooldown;
+    public GameObject bullet;
+    public Transform ShootingPoint;
 
 
     public float minX = -9.7f;
@@ -31,24 +30,25 @@ public class banphim : MonoBehaviour
         float clampedY = Mathf.Clamp(newPos.y, minY, maxY);
         transform.position = new Vector3(clampedX, clampedY, transform.position.z);
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (tempCooldown <= 0)
-            {
-                Shoot();
-                tempCooldown = shootingCooldown;
-            }
+            Shoot();
         }
-        tempCooldown -= Time.deltaTime;
     }
-
     public void Shoot()
-    {
-        // Ensure bulletPrefab is assigned a valid prefab reference
-        if (PlayerBullet != null)
+    {        if(bullet && ShootingPoint)
         {
-            Instantiate(PlayerBullet, shootingPoint.position, Quaternion.identity, null);
+            Instantiate(bullet, ShootingPoint.position,Quaternion.identity);
+        }
 
     }
-}
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Enemy"))
+        {
+            Debug.Log("Player va cham voi Enemy");
+        }
+    }
+
+
 }
