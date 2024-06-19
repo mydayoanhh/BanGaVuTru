@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: "Assets/Scenes/B\u1EAFt \u0110\u1EA7u.unity"
+    guid: de929272f38867a4eae1732b53360b62
+  - enabled: 1
+    path: "Assets/Scenes/M\xE0n1.unity"
+    guid: e9147ca91f5dc8a4a9e9652d59b0a7aa
+  - enabled: 1
+    path: Assets/Scenes/TamDung.unity
+    guid: 98c774541bc2e422b8444b3849883f0a
   m_configObjects: {}
