@@ -16,7 +16,7 @@ public class ChucNangMenu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    public void M()
+    public void Setting()
     {
         SceneManager.LoadScene(0);
     }
