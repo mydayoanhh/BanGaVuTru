@@ -7,37 +7,52 @@ public class dichuyen : MonoBehaviour
     public float speed = 4f;
     public float leftBoundary = -5f;
     public float rightBoundary = 5f;
-    private int direction = 1; // 1 means moving right, -1 means moving left
+    private int direction = 1;
 
-    public float floatSpeed = 0.5f; // Speed of floating up and down
-    public float floatAmplitude = 1f; // Amplitude of the floating motion
+    public float floatSpeed = 0.5f;
+    public float floatAmplitude = 1f;
 
-    private float initialY; // Initial Y position
+    private float initialY;
+    private bool isFalling = true; 
 
-    // Start is called before the first frame update
+    public float fallSpeed = 2f; 
+    public float targetY = 0f;
+
     void Start()
     {
-        initialY = transform.position.y; // Store the initial Y position
+        initialY = transform.position.y;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Horizontal movement
-        transform.Translate(Vector3.right * direction * speed * Time.deltaTime);
-
-        // Check for boundaries and change direction if necessary
-        if (transform.position.x >= rightBoundary)
+        if (isFalling)
         {
-            direction = -1; // Move left
-        }
-        else if (transform.position.x <= leftBoundary)
-        {
-            direction = 1; // Move right
-        }
+           
+            transform.Translate(Vector3.down * fallSpeed * Time.deltaTime);
 
-        // Floating effect
-        float newY = initialY + Mathf.Sin(Time.time * floatSpeed) * floatAmplitude;
-        transform.position = new Vector3(transform.position.x, newY, transform.position.z);
+            if (transform.position.y <= targetY)
+            {
+                isFalling = false; 
+                initialY = transform.position.y; 
+            }
+        }
+        else
+        {
+            
+            transform.Translate(Vector3.right * direction * speed * Time.deltaTime);
+
+            if (transform.position.x >= rightBoundary)
+            {
+                direction = -1;
+            }
+            else if (transform.position.x <= leftBoundary)
+            {
+                direction = 1;
+            }
+
+          
+            float newY = initialY + Mathf.Sin(Time.time * floatSpeed) * floatAmplitude;
+            transform.position = new Vector3(transform.position.x, newY, transform.position.z);
+        }
     }
 }
