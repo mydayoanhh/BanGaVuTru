@@ -1,45 +1,44 @@
-﻿using UnityEditor.SearchService;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class banphim : MonoBehaviour
 {
     public float moveSpeed;
     public GameObject bullet;
     public Transform ShootingPoint;
+    public GameObject gameOverCanvas;
 
     public float minX = -9.7f;
     public float maxX = 9.7f;
     public float minY = -3.75f;
     public float maxY = 3.75f;
 
-    public int lives = 3; // Số mạng của player
-    private bool gameOver = false; 
+    public int lives = 3; // Number of player lives
+    private bool gameOver = false;
 
-    public Image heart1; 
-    public Image heart2; 
-    public Image heart3; 
+    public Image heart1;
+    public Image heart2;
+    public Image heart3;
 
     void Start()
     {
-        UpdateLivesUI(); // Cập nhật UI khi bắt đầu trò chơi
+        UpdateLivesUI(); // Update UI at the start of the game
     }
 
     void Update()
     {
-        if (gameOver) return; // Nếu game đã kết thúc, không thực hiện cập nhật
+        if (gameOver) return; // If the game is over, do not update
 
-        // Di chuyển bằng bàn phím
+        // Move using keyboard
         float xDir = Input.GetAxis("Horizontal");
         float yDir = Input.GetAxis("Vertical");
 
         Vector3 movement = new Vector3(xDir, yDir, 0) * moveSpeed * Time.deltaTime;
 
-        // Tính toán vị trí mới của đối tượng
+        // Calculate new position of the object
         Vector3 newPos = transform.position + movement;
 
-        // Giới hạn vị trí di chuyển của đối tượng
+        // Limit the movement position of the object
         float clampedX = Mathf.Clamp(newPos.x, minX, maxX);
         float clampedY = Mathf.Clamp(newPos.y, minY, maxY);
         transform.position = new Vector3(clampedX, clampedY, transform.position.z);
@@ -62,8 +61,8 @@ public class banphim : MonoBehaviour
     {
         if (col.CompareTag("Enemy"))
         {
-            lives--; // Giảm số mạng khi va chạm với enemy
-            UpdateLivesUI(); // Cập nhật UI khi số mạng thay đổi
+            lives--; // Decrease lives when colliding with enemy
+            UpdateLivesUI(); // Update UI when lives change
 
             if (lives <= 0)
             {
@@ -74,7 +73,7 @@ public class banphim : MonoBehaviour
 
     private void UpdateLivesUI()
     {
-        // Ẩn các hình ảnh trái tim dựa trên số mạng còn lại
+        // Hide heart images based on remaining lives
         if (lives <= 2) heart3.enabled = false;
         if (lives <= 1) heart2.enabled = false;
         if (lives <= 0) heart1.enabled = false;
@@ -82,8 +81,8 @@ public class banphim : MonoBehaviour
 
     private void GameOver()
     {
-        gameOver = true; // Đặt trạng thái game over
-        Debug.Log("Game Over"); // Hiển thị thông báo game over
-        SceneManager.LoadScene(3);
+        gameOver = true; // Set game over status
+        Debug.Log("Game Over"); // Display game over message
+        gameOverCanvas.SetActive(true); // Activate game over canvas
     }
 }

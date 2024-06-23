@@ -61,8 +61,6 @@ public class dichuyen : MonoBehaviour
         if (col.CompareTag("Player"))
         {
             Debug.Log("Enemy va cham voi Player");
-
-            SceneManager.LoadScene(3);
         }
     }
 }
