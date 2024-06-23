@@ -184,7 +184,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.3244834
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -548,8 +548,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -358.976, y: -195.2}
-  m_SizeDelta: {x: 21.0957, y: 27.689}
+  m_AnchoredPosition: {x: -335.0657, y: -289.72034}
+  m_SizeDelta: {x: 41.4565, y: 71.6714}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &723487391
 MonoBehaviour:
@@ -830,8 +830,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -406.84363, y: -195.19853}
-  m_SizeDelta: {x: 23.7606, y: 27.6907}
+  m_AnchoredPosition: {x: -429.13354, y: -289.71652}
+  m_SizeDelta: {x: 46.6935, y: 71.6759}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1276177223
 MonoBehaviour:
@@ -1108,8 +1108,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383.3, y: -195.2}
-  m_SizeDelta: {x: 21.5802, y: 28.054}
+  m_AnchoredPosition: {x: -382.8664, y: -289.72034}
+  m_SizeDelta: {x: 42.4087, y: 72.6162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1525731621
 MonoBehaviour:
@@ -1241,7 +1241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -314.96, y: 188}
+  m_AnchoredPosition: {x: -378, y: 310}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1716626494
@@ -1506,7 +1506,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 380.15088, y: 195.5}
+  m_AnchoredPosition: {x: 423, y: 310}
   m_SizeDelta: {x: 78.1982, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948371038
@@ -1682,8 +1682,8 @@ Transform:
   m_GameObject: {fileID: 1983002098}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0777, y: 0.0136, z: 0}
-  m_LocalScale: {x: 4.293227, y: 2.8800366, z: 1}
+  m_LocalPosition: {x: 0.0777, y: 0.1566, z: 0}
+  m_LocalScale: {x: 4.293227, y: 4.2447734, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
