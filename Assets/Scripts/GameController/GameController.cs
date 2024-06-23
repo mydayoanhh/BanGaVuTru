@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 //Tạo enemy ngẫu nhiên
 // Tăng điểm số của người chơi
