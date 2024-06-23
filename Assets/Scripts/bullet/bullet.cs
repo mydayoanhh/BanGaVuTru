@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class bullet : MonoBehaviour
 {
@@ -28,14 +27,18 @@ public class bullet : MonoBehaviour
     {
         if (col.CompareTag("Enemy"))
         {
-            Debug.Log("Vien đã va chạm với enemy");
+            Debug.Log("Viên đã va chạm với enemy");
 
             EnemyHealth enemyHealth = col.GetComponent<EnemyHealth>();
             if (enemyHealth != null)
             {
                 enemyHealth.TakeDamage(damageAmount);
             }
-            Destroy(gameObject); 
+            else
+            {
+                Destroy(col.gameObject); // Phá hủy kẻ địch nếu không có EnemyHealth
+            }
+            Destroy(gameObject); // Phá hủy viên đạn sau khi va chạm
         }
     }
 }
