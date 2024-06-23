@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TamDung.unity
     guid: 98c774541bc2e422b8444b3849883f0a
+  - enabled: 1
+    path: "Assets/Scenes/K\u1EBFt Th\xFAc.unity"
+    guid: 49d0847bddbf3664982375db61f24822
   m_configObjects: {}

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class bullet : MonoBehaviour
 {
@@ -36,9 +34,15 @@ public class bullet : MonoBehaviour
             }
             else
             {
-                Destroy(col.gameObject); // Phá hủy kẻ địch nếu không có EnemyHealth
+                // Nếu không có EnemyHealth, phá hủy game object của col
+                Destroy(col.gameObject);
             }
-            Destroy(gameObject); // Phá hủy viên đạn sau khi va chạm
+
+            // Tăng điểm số khi tiêu diệt enemy
+            ScoreManager.instance.AddScore(1);
+
+            // Phá hủy viên đạn sau khi va chạm
+            Destroy(gameObject);
         }
     }
 }

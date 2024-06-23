@@ -1,13 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyHealth : MonoBehaviour
 {
     public float maxHealth = 400f;
     private float currentHealth;
     public ThanhMau healthBar; // Tham chiếu đến thanh máu
+    public int scoreValue = 10; // Giá trị điểm số khi tiêu diệt kẻ thù
 
     void Start()
     {
@@ -21,8 +20,10 @@ public class EnemyHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            // Xử lý kẻ thù chết (nếu cần)
-            Destroy(gameObject); // hủy đối tượng kẻ thù
+            // Xử lý kẻ thù chết
+            ScoreManager.instance.AddScore(scoreValue); // Thêm điểm
+            Destroy(gameObject); // Hủy đối tượng kẻ thù
+            SceneManager.LoadScene(3); // Chuyển scene sau khi tiêu diệt kẻ thù
         }
         healthBar.capNhatThanhMau(currentHealth, maxHealth);
     }

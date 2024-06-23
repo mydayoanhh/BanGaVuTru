@@ -1,6 +1,7 @@
 ﻿using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class banphim : MonoBehaviour
 {
@@ -14,11 +15,11 @@ public class banphim : MonoBehaviour
     public float maxY = 3.75f;
 
     public int lives = 3; // Số mạng của player
-    private bool gameOver = false; // Kiểm tra trạng thái game over
+    private bool gameOver = false; 
 
-    public Image heart1; // Tham chiếu đến hình ảnh trái tim 1
-    public Image heart2; // Tham chiếu đến hình ảnh trái tim 2
-    public Image heart3; // Tham chiếu đến hình ảnh trái tim 3
+    public Image heart1; 
+    public Image heart2; 
+    public Image heart3; 
 
     void Start()
     {
@@ -83,6 +84,6 @@ public class banphim : MonoBehaviour
     {
         gameOver = true; // Đặt trạng thái game over
         Debug.Log("Game Over"); // Hiển thị thông báo game over
-        
+        SceneManager.LoadScene(3);
     }
 }
