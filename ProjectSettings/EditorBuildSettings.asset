@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/K\u1EBFt Th\xFAc.unity"
     guid: 49d0847bddbf3664982375db61f24822
+  - enabled: 1
+    path: "Assets/Scenes/M\xE0n2.unity"
+    guid: 477a4ab8da22d664fa215aff8302988b
+  - enabled: 1
+    path: "Assets/Scenes/M\xE0n3.unity"
+    guid: d939d8b5ffea84845a9d1ea5efda66d5
   m_configObjects: {}

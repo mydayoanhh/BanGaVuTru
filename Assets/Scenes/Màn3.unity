@@ -235,6 +235,8 @@ MonoBehaviour:
   maxHealth: 400
   healthBar: {fileID: 451107178}
   scoreValue: 1
+  smallerEnemyPrefab: {fileID: 7202684689045713820, guid: 6f82801548e363c46b5900f64226ae7f, type: 3}
+  numberOfSmallerEnemies: 20
 --- !u!114 &95042753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,7 +244,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95042731}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 180f3aaf5414cb343886f1621d1ee6a4, type: 3}
   m_Name: 
