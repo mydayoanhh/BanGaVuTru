@@ -26,4 +26,9 @@ public class ChucNangMenu : MonoBehaviour
     {
         Application.Quit();
     }
+    public void QuaylaiPause()
+    {
+        SceneManager.LoadScene(3);
+    }
+
 }

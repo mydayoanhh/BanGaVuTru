@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 9108633011689858784}
   - component: {fileID: 6444401147971424252}
   - component: {fileID: 1410761588392484704}
+  - component: {fileID: 439212698484368137}
+  - component: {fileID: 3266775758745924185}
   - component: {fileID: 5072543927010326678}
   - component: {fileID: 7713529978007913167}
   - component: {fileID: 6533568185742950111}
@@ -84,10 +86,16 @@ MonoBehaviour:
   moveSpeed: 12
   bullet: {fileID: 4528275041146312799, guid: f728e94119f2afd44adcdc1c7f794d16, type: 3}
   ShootingPoint: {fileID: 2321797344791492698}
+  gameOverCanvas: {fileID: 0}
+  Strongerbullet: {fileID: 0}
   minX: -9.7
   maxX: 9.7
   minY: -3.75
   maxY: 3.75
+  lives: 3
+  heart1: {fileID: 0}
+  heart2: {fileID: 0}
+  heart3: {fileID: 0}
 --- !u!114 &1410761588392484704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,6 +114,35 @@ MonoBehaviour:
   maxX: 9.7
   minY: -3.75
   maxY: 3.75
+--- !u!114 &439212698484368137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4665091247829585663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3cd928e390dfd4680295b525d37d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSelector: {fileID: 0}
+  movementDropdown: {fileID: 0}
+  uiPanel: {fileID: 0}
+--- !u!114 &3266775758745924185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4665091247829585663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b958a4471bcec49b814e3753360dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementScript1: {fileID: 6444401147971424252}
+  movementScript2: {fileID: 1410761588392484704}
 --- !u!212 &5072543927010326678
 SpriteRenderer:
   m_ObjectHideFlags: 0
