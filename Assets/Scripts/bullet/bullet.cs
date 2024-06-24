@@ -7,7 +7,6 @@ public class Bullet : MonoBehaviour
     public float damageAmount = 10f; // Lượng sát thương của viên đạn
 
     Rigidbody2D m_rb;
-    public GameObject superBullet;
 
     // Start is called before the first frame update
     void Start()
