@@ -1,26 +1,39 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class nextlevel : MonoBehaviour 
+public class NextLevel : MonoBehaviour
 {
-    public string nextLevelName; 
-
-    public void LoadNextLevel() 
+    public GameObject image;
+    void Start()
     {
-        if (string.IsNullOrEmpty(nextLevelName))
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        int numEnemies = enemies.Length;
+        Debug.Log("Number of enemies in the scene: " + numEnemies);
+        // image.SetActive(false);
+    }
+
+    void Update()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        int numEnemies = enemies.Length;
+        if (numEnemies == 0)
         {
-            Debug.LogError("Please set the 'nextLevelName' variable in the Inspector!");
-            return; 
+            Debug.Log("Đã hết kẻ thù!");
+            image.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("Enemies found in the scene.");
         }
 
-        SceneManager.LoadScene(4);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            LoadNextLevel();
+            SceneManager.LoadScene(4);
         }
     }
 }

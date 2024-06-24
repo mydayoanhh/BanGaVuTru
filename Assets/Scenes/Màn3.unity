@@ -1936,6 +1936,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4630424004680345270, guid: dbaee1fcef7dcc64b8c782c9e456e261, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6112853130231559269, guid: dbaee1fcef7dcc64b8c782c9e456e261, type: 3}
       propertyPath: speed
       value: 10

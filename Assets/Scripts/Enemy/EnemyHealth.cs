@@ -2,6 +2,8 @@
 
 public class EnemyHealth : MonoBehaviour
 {
+
+    public static int defeatedEnemies = 0;
     public float maxHealth = 400f;
     private float currentHealth;
     public ThanhMau healthBar; // Tham chiếu đến thanh máu
@@ -25,7 +27,7 @@ public class EnemyHealth : MonoBehaviour
             ScoreManager.instance.AddScore(scoreValue); // Thêm điểm
             SpawnSmallerEnemies(); // Sinh ra kẻ thù nhỏ hơn
             Destroy(gameObject); // Hủy đối tượng kẻ thù
-            // SceneManager.LoadScene(3); // Tùy chọn: chuyển scene sau khi tiêu diệt kẻ thù
+            defeatedEnemies++;
         }
         healthBar.capNhatThanhMau(currentHealth, maxHealth);
     }
