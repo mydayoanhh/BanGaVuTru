@@ -7,6 +7,8 @@ public class banphim : MonoBehaviour
     public GameObject bullet;
     public Transform ShootingPoint;
     public GameObject gameOverCanvas;
+    public GameObject Strongerbullet;
+    private int bulletsFired = 0;
 
     public float minX = -9.7f;
     public float maxX = 9.7f;
@@ -54,9 +56,21 @@ public class banphim : MonoBehaviour
         if (bullet && ShootingPoint)
         {
             Instantiate(bullet, ShootingPoint.position, Quaternion.identity);
+            bulletsFired++;
+        }
+        if (bulletsFired >= 10)
+        {
+            ShootStrongerBullet();
+            bulletsFired = 0; // Reset the count
         }
     }
-
+    public void ShootStrongerBullet()
+    {
+        if (Strongerbullet && ShootingPoint)
+        {
+            Instantiate(Strongerbullet, ShootingPoint.position, Quaternion.identity);
+        }
+    }
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Enemy"))
