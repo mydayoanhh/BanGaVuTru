@@ -12,11 +12,13 @@ public class ChucNangMenu : MonoBehaviour
     }
     public void Pause()
     {
+        PlayerPrefs.SetInt("CurrentScene", SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(2);
     }
     public void TiepTuc()
     {
-        SceneManager.LoadScene(1);
+        int currentScene = PlayerPrefs.GetInt("CurrentScene", 1);
+        SceneManager.LoadScene(currentScene);
     }
     public void Setting()
     {
