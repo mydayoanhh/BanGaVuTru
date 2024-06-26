@@ -33,7 +33,11 @@ public class NextLevel : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene(4);
+            // Lấy chỉ số của scene hiện tại
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+            // Tải scene tiếp theo dựa trên chỉ số
+            SceneManager.LoadScene(currentSceneIndex + 1);
         }
     }
 }

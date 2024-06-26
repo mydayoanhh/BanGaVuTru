@@ -8,25 +8,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CaiDat.unity
-    guid: 701345cab6b1bef4e99f8f4f59831765
+    guid: 0630629f31a762a49bb05d995ac8ef1c
   - enabled: 1
     path: "Assets/Scenes/B\u1EAFt \u0110\u1EA7u.unity"
     guid: de929272f38867a4eae1732b53360b62
   - enabled: 1
     path: "Assets/Scenes/M\xE0n1.unity"
-    guid: e9147ca91f5dc8a4a9e9652d59b0a7aa
+    guid: 6ca425142a2d94607a33809505f6a30b
+  - enabled: 1
+    path: "Assets/Scenes/M\xE0n2.unity"
+    guid: 3076169a2a918457a891a6de86455a52
+  - enabled: 1
+    path: "Assets/Scenes/M\xE0n3.unity"
+    guid: 02f9a0edbb9794af385210ad4c81fbae
   - enabled: 1
     path: Assets/Scenes/TamDung.unity
     guid: 98c774541bc2e422b8444b3849883f0a
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/K\u1EBFt Th\xFAc.unity"
     guid: 49d0847bddbf3664982375db61f24822
-  - enabled: 1
-    path: "Assets/Scenes/M\xE0n2.unity"
-    guid: 477a4ab8da22d664fa215aff8302988b
-  - enabled: 1
-    path: "Assets/Scenes/M\xE0n3.unity"
-    guid: d939d8b5ffea84845a9d1ea5efda66d5
   m_configObjects: {}

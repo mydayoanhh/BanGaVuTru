@@ -9,7 +9,7 @@ public class EnemyHealth : MonoBehaviour
     public ThanhMau healthBar; // Tham chiếu đến thanh máu
     public int scoreValue = 10; // Giá trị điểm số khi tiêu diệt kẻ thù
     public GameObject smallerEnemyPrefab; // Prefab của kẻ thù nhỏ hơn
-    public int numberOfSmallerEnemies = 20; // Số lượng kẻ thù nhỏ sẽ được sinh ra
+    public int numberOfSmallerEnemies = 3; // Số lượng kẻ thù nhỏ sẽ được sinh ra
 
     void Start()
     {
